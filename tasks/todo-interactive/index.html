@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f3f5ef">
+    <title>Interactive To Do List</title>
+    <style link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+    <main>
+        <p class="eyebrow">A little progress, every day</p>
+        <h1>Interactive To Do List</h1>
+        <p class="intro">Tap a task to mark it done. Tap again to bring it back.</p>
+        <ul aria-label="To-do items">
+            <li><button class="task" type="button" aria-pressed="false"><span class="task-label">Plan the week</span><span class="check" aria-hidden="true">&#10003;</span></button></li>
+            <li><button class="task" type="button" aria-pressed="false"><span class="task-label">Reply to important messages</span><span class="check" aria-hidden="true">&#10003;</span></button></li>
+            <li><button class="task" type="button" aria-pressed="false"><span class="task-label">Take a proper lunch break</span><span class="check" aria-hidden="true">&#10003;</span></button></li>
+            <li><button class="task" type="button" aria-pressed="false"><span class="task-label">Prepare for tomorrow</span><span class="check" aria-hidden="true">&#10003;</span></button></li>
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
